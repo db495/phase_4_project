@@ -59,3 +59,12 @@ Improvements could be made by switching approach from trialling out supervised M
 Please find a link to the [presentation here]()
 
 You can find a link to the full notebook for my [model here]()
+
+## Repository Structure
+
+```
+├── Data
+├── README.md
+├── presentation.pdf
+├── Sentiment Analysis.ipynb
+```
