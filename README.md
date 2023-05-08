@@ -58,7 +58,7 @@ Improvements could be made by switching approach from trialling out supervised M
 ## For reference
 Please find a link to the [presentation here]()
 
-You can find a link to the full notebook for my [model here]()
+You can find a link to the full notebook for my [model here](https://github.com/db495/phase_4_project/blob/main/Sentiment%20Analysis.ipynb)
 
 ## Repository Structure
 
