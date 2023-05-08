@@ -45,6 +45,8 @@ After evaluating several different transformations and models, with a focus on o
 
 The best performing model on both occassions has been the `CountVectorizer Multinomial Naive Bayes` model
 
+![confusion-matrix](https://github.com/db495/phase_4_project/blob/main/images/confusion-matrix.png)
+
 
 ## Future steps & Limitations
 
