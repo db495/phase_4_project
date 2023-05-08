@@ -58,7 +58,7 @@ Improvements could be made by switching approach from trialling out supervised M
 
 
 ## For reference
-Please find a link to the [presentation here]()
+Please find a link to the [presentation here](https://github.com/db495/phase_4_project/blob/main/Tweet%20Sentiment%20Classification.pdf)
 
 You can find a link to the full notebook for my [model here](https://github.com/db495/phase_4_project/blob/main/Sentiment%20Analysis.ipynb)
 
@@ -66,7 +66,8 @@ You can find a link to the full notebook for my [model here](https://github.com/
 
 ```
 ├── Data
+├── Images
 ├── README.md
-├── presentation.pdf
+├── Tweet Sentiment Classification.pdf
 ├── Sentiment Analysis.ipynb
 ```
