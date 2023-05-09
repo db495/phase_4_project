@@ -39,6 +39,14 @@ After the pre-processing stage was complete, we looked at first creating a simpl
 
 ## Evaluation
 
+Once the pre-processing stage was complete from above, we can see via a word cloud which words are showing up most frequently for each class. Below is the word cloud for positive sentiment tweets.
+
+![pos-top-words](https://github.com/db495/phase_4_project/blob/main/images/pos-top-words.png)
+
+Below is the top words for the negative sentiment tweets.
+
+![neg-top-words](https://github.com/db495/phase_4_project/blob/main/images/neg-top-words.png)
+
 After evaluating several different transformations and models, with a focus on optimising towards our recall score, we are getting varied results, this could be due to several reasons, however the main one to call out is the fact that the initial dataset is heavily imbalanced towards the neutral tweet compared to the negative sentiment tweets. As a result on all of the models trialled the negative sentiment category always had the lowest results. 
 
 
