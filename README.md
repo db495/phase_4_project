@@ -41,7 +41,7 @@ After the pre-processing stage was complete, we looked at first creating a simpl
 
 As mentioned within the `method` section, we focused first on creating a binary classifiation model to distinguish between positive and negative sentiment comments, this got further expanded into a multiclass classification model by adding in the neutral sentiment tweets. Below you can see a table which contains all the models we tried and their overall recall score.
 
-
+![model-performance](https://github.com/db495/phase_4_project/blob/main/images/model-performance.png)
 
 ## Evaluation
 
