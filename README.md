@@ -37,6 +37,12 @@ First I wanted to do some quick EDA to understand what categories are offered in
 
 After the pre-processing stage was complete, we looked at first creating a simple binary classification model, then expanded the model to a multiclassification approach, with the key metric to optimise towards was our `recall score`
 
+## Modelling
+
+As mentioned within the `method` section, we focused first on creating a binary classifiation model to distinguish between positive and negative sentiment comments, this got further expanded into a multiclass classification model by adding in the neutral sentiment tweets. Below you can see a table which contains all the models we tried and their overall recall score.
+
+
+
 ## Evaluation
 
 Once the pre-processing stage was complete from above, we can see via a word cloud which words are showing up most frequently for each class. Below is the word cloud for positive sentiment tweets.
@@ -63,6 +69,14 @@ In order to further refine the model in the future, the following limitations ne
 - Collect more data that allows the class imbalance between categories to be more balanced
 
 Improvements could be made by switching approach from trialling out supervised ML models such as logisitic regression, RandomForest and Multinomial Naive Bayes. Instead it is worth testing out a CNN approach using more advanced techniques such as gensim, GloVe and Word2Vec to help us the hidden layer inside the neural networks to better make the connection between the context of the tweet and the overall sentiment
+
+## Recommendations
+
+Looking back to the use cases that this project held, the main recommendations on how to utilise this project are listed below:
+
+- Continue to further iterate on the model to improve overall recall and accuracy scores to a threshold we're happy with this can first be handled by reducing the class imbalance within the training dataset and then trying to build neural networks for the model, afterwards
+- Look to set up business practices that help to monitor all social media engagement and highlight when any negative comments are raised about the brand or specific product
+- Establish a ways of working where teams further investigate the negative comments to perform root cause analysis and present back to product/leadership teams on a regular basis
 
 
 ## For reference
