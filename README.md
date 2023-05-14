@@ -80,9 +80,9 @@ Looking back to the use cases that this project held, the main recommendations o
 
 
 ## For reference
-Please find a link to the [presentation here](https://github.com/db495/phase_4_project/blob/main/Tweet%20Sentiment%20Classification.pdf)
+Please find a link to the [presentation here](https://github.com/db495/phase_4_project/blob/main/Tweet%20Sentiment%20Classification%20(2).pdf)
 
-You can find a link to the full notebook for my [model here](https://github.com/db495/phase_4_project/blob/main/Sentiment%20Analysis.ipynb)
+You can find a link to the full notebook for my [model here](https://github.com/db495/phase_4_project/blob/main/Sentiment_Classification_Model.ipynb)
 
 ## Repository Structure
 
