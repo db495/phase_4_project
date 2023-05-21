@@ -64,6 +64,9 @@ After evaluating several different transformations and models, with a focus on o
 The best performing model on both occassions has been the `CountVectorizer Multinomial Naive Bayes` model
 
 
+![confusion-matrix-sc](https://github.com/db495/phase_4_project/blob/main/images/confusion-matrix-sc.png)
+
+Looking at the confusion matrix above, we can see that the model has the best performance for our neutral based tweets, which is to be expected due to the dataset distribution. It is rarely predicts a negative class when it is a positive based tweet. Looking back at the business problem we are trying to solve, seeing as we want to optimise the recall score, we are looking to reduce the number of false negatives as having negative sentiment tweets classified as positive would hide the issue the business is facing around customer perception and satisfaction. 
 
 ## Future steps & Limitations
 
