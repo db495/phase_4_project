@@ -19,6 +19,10 @@ The dataset comes from CrowdFlower via data.worldLinks. Human raters rated the s
 * `emotion_in_tweet_is_directed_at` - This column identifies whether the tweet was targeted to a brand or a specific product. There are a lot of NULL values in this column, so it's not super helpful initially
 * `is_there_an_emotion_directed_at_a_brand_or_product` - This column helps to identify the sentiment of the tweet
 
+Below you can see the distribution between our target variable `Sentiment Class` where we see there is a class imbalance, so it'll be hard to directly build a model to support the `negative sentiment` tweets. 
+
+![target-distribution](https://github.com/db495/phase_4_project/blob/main/images/target-distribution.png)
+
 ## Method
 
 First I wanted to do some quick EDA to understand what categories are offered in each column and what type of data cleaning I might need to do. After the initial EDA we created several functions to help with the data cleaning stage to get the dataset ready for model building. This involved 
